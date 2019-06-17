@@ -157,3 +157,10 @@ header h1{
     margin: 0%;
     text-align: center;
 }
+.who{
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
