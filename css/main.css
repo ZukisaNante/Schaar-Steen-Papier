@@ -89,7 +89,7 @@ header h1{
     border-color: white;
     color: white; /*maintains the color of bn when bg-color changes*/
 }
-.challenge{
+#challenge{
     position: absolute;
     top: 43%;
     left: 50%;
