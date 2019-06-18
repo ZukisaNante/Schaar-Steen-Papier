@@ -6,7 +6,7 @@ var ComPoints = 0;
 function score(){
     var score_div = document.getElementById("score").innerHTML = UserPoints + " - " + ComPoints;
 }
-setInterval(score, 3);
+setInterval(score, 50);
 function convert(word){
     if(word === "paper") return '<i class="far fa-hand-paper"></i>';
     if(word === "rock") return '<i class="far fa-hand-rock"></i>';
@@ -67,5 +67,8 @@ function game(UserChoice){
             bn.classList.remove("red");
             
         }, 1200);
+    }
+    function resetAll(){
+        document.getElementById("resetAll").reset();
     }
 
