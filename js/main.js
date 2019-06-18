@@ -73,10 +73,10 @@ function game(UserChoice){
         }, 1200);
     }
     function resetAll(){
-       // document.getElementById("result").innerHTML = "";
-       // document.getElementById("user").innerHTML = "";
-        document.getElementById("score").innerHTML = ComChoice;
-       // document.getElementById("who").innerHTML = "";
+        document.getElementById("result").innerHTML = "";
+        document.getElementById("ComOject").innerHTML = "";
+        document.getElementById("YourObject").innerHTML = "";
+        
        
     }
 
