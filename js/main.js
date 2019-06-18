@@ -3,6 +3,8 @@ var i = Math.floor(Math.random() * 3);
 var ComChoice = choices[i];
 var UserPoints = 0;
 var ComPoints = 0;
+let test = UserPoints;
+let so = ComPoints;
 function score(){
     var score_div = document.getElementById("score").innerHTML = UserPoints + " - " + ComPoints;
 }
@@ -49,7 +51,7 @@ function game(UserChoice){
     }
     //draw function
     function draw(bn){
-        document.getElementById("who").innerHTML = "It's a Draw.";
+        document.getElementById("who").innerHTML = "Draw...";
         var bn = document.getElementById('bn');
         bn.classList.remove("bn");
         bn.classList.add("gray");
@@ -73,10 +75,6 @@ function game(UserChoice){
         }, 1200);
     }
     function resetAll(){
-        document.getElementById("result").innerHTML = "";
-        document.getElementById("ComOject").innerHTML = "";
-        document.getElementById("YourObject").innerHTML = "";
-        
-       
+        document.getElementById("result").innerHTML = "";   
     }
 
