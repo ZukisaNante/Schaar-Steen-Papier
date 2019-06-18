@@ -1,5 +1,7 @@
 https://zukisanante.github.io/Schaar-Steen-Papier/
 
+![](img/img1)
+
 # Schaar-Steen-Papier
 ---
 ## Assignment
@@ -23,7 +25,7 @@ https://zukisanante.github.io/Schaar-Steen-Papier/
 > - Create variables for an if statement.
 ---
 ### CSS
-> - background color should be apealing.
+> - Background color should be apealing.
 > - Header (Title) should have a separate color.
 > - Center buttons.
 > - Results should come at the bottom.
