@@ -32,6 +32,6 @@ https://zukisanante.github.io/Schaar-Steen-Papier/
 > - Reset button top-left.
 ---
 ## Licenses
-> -
+> - Photo: © 2009-2019. Depositphotos, Inc. USA. All Rights Reserved.
 ---
 > @ Zukisa Nante
