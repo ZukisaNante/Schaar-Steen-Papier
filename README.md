@@ -31,4 +31,7 @@ https://zukisanante.github.io/Schaar-Steen-Papier/
 > - Results should come at the bottom.
 > - Reset button top-left.
 ---
+## Licenses
+> -
+---
 > @ Zukisa Nante
