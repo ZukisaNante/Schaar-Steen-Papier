@@ -6,7 +6,7 @@ var ComPoints = 0;
 function score(){
     var score_div = document.getElementById("score").innerHTML = UserPoints + " - " + ComPoints;
 }
-setInterval(score, 50);
+setInterval(score, 3);
 function convert(word){
     if(word === "paper") return '<i class="far fa-hand-paper"></i>';
     if(word === "rock") return '<i class="far fa-hand-rock"></i>';
