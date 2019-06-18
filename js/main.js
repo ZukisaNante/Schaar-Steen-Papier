@@ -19,6 +19,7 @@ function game(UserChoice){
     userDiv.innerHTML = convert(UserChoice);
     var comDiv = document.getElementById("ComObject");
     comDiv.innerHTML = convert(ComChoice);
+    // to determine results according to user choice
     if (UserChoice === "paper" && ComChoice === "rock" || UserChoice === "rock" && ComChoice === "scissors" || UserChoice === "scissors" && ComChoice === "paper"){
         win(UserChoice);
     }else if(UserChoice === ComChoice){
@@ -33,6 +34,7 @@ function game(UserChoice){
     }
     setInterval (continuGame, 1200);
 }
+//win results
     function win(bn){
         UserPoints++;
         document.getElementById("who").innerHTML = "You Win!";
@@ -45,6 +47,7 @@ function game(UserChoice){
             
         }, 1200);
     }
+    //draw function
     function draw(bn){
         document.getElementById("who").innerHTML = "It's a Draw.";
         var bn = document.getElementById('bn');
@@ -56,6 +59,7 @@ function game(UserChoice){
             
         }, 1200);
     }
+    //lose function
     function lose(bn){
         ComPoints++;
         document.getElementById("who").innerHTML = "You Lose";
@@ -69,6 +73,10 @@ function game(UserChoice){
         }, 1200);
     }
     function resetAll(){
-        document.getElementById("resetAll").reset();
+       // document.getElementById("result").innerHTML = "";
+       // document.getElementById("user").innerHTML = "";
+        document.getElementById("score").innerHTML = ComChoice;
+       // document.getElementById("who").innerHTML = "";
+       
     }
 
